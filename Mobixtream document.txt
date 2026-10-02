@@ -1,0 +1,38 @@
+To install tomcat in windows
+
+1)Create an ec2 instance.
+2) select windows in amazon machine image.
+3) select keypair.
+4) select security group.
+Note : all the remaining steps will be same from keypair onwards.
+
+
+
+1) Go to MobaXterm
+
+2)Click on RDP
+
+3) another new tab will  be open
+  a) remote host : public ip address of ec2
+  b)Username : Administrator
+  c) port no : 3389
+  d) then click on ok
+
+4)how will be get the password to enter in the MobaXterm.
+a)click on connect an instance.
+b)go to RDP(Remote Desktop Protocol).
+c)go to right side bottom  & you will find the get windows password .
+d)click on get windows password .
+e)new tab will be opened.
+f)go to pemfile & open the pemfile in the notepad.
+g)copy from BEGIN RSA PRIVATE KEY to END RSA PRIVATE KEY and paste in the private key contents.
+h)click on Decrypt password.
+i)Then you will get another screen.
+j)You will see four things one is instance id and private ip address and Username and Password.
+k)Then click on ok.
+
+Note : Password change will every time and when you create a windows ec2 instance and delete a windows ec2 instance when you create a new windows ec2 instance and new password will be generated.
+
+5) After that password will be ask and after entering the password  and click on ok. 
+
+6) use enter into the new windows in the  MobaXterm.  
